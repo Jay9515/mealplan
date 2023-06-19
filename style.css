@@ -1,0 +1,106 @@
+
+* {
+  margin: 0px;
+  /* padding: 0px; */
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+
+  /* background-color: rgba(255, 255, 0, 0.46); */
+  background-color: rgba(142, 142, 17, 0.786);
+
+}
+.container{
+  /* text-align: center; */
+  /* border: 1px solid black; */
+}
+.container h1.title{
+  text-align: center;
+  color: rgb(80, 91, 165);
+  z-index: 100;
+  position: relative;
+
+}
+.backdrop {
+  position: absolute;
+  /* display: inline-block; */
+ width: 100%;
+  height:195vh;
+  z-index: 100;
+  /* background-color: rgba(255, 255, 0, 0.437); */
+  background-color: rgba(255, 255, 0, 0.426);
+
+}
+.box {
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+}
+.plan .time{
+  position: relative;
+  top:48px;
+  left: 50%;
+  transform: translateX(-12.3rem);
+  color: red;
+
+}
+.time{
+  margin-top: 10px;
+  position: relative;
+  top:10px;
+}
+.card{
+  width: 18rem;
+  position: relative;
+  /* height: 15rem; */
+  margin: 10px auto;
+  background-color: white;
+  /* border:1px solid black; */
+  padding:20px;
+}
+.card img{
+  position: absolute;
+  top:-19px;
+  right: -15px;
+  /* border: 1px solid black; */
+  width: 40px;
+  height:70px;
+  z-index: 100;
+  transform: rotate(-30deg);
+
+
+}
+.list{
+  list-style: none;
+  padding: 0px;
+  /* border: 1px solid black; */
+}
+.main-list{
+  margin: 15px 0px;
+  font-size: small;
+  text-transform: uppercase;
+}
+.main-list ul{
+  padding: 1px 0px 1px 16px;
+  list-style: none;
+}
+.card h5{
+  margin: 0px 0px;
+  color: rgb(0, 34, 255);
+
+}
+li small{
+  text-transform: capitalize;
+  font-size: small;
+}
+.card h5{
+  position: relative;
+  z-index: 100;
+  color: rgba(54, 75, 213, 0.625);
+}
+
+
